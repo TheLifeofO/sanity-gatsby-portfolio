@@ -19,6 +19,8 @@ import contactInfo from './objects/contactInfo'
 import logo from './objects/logo'
 import projectPortableText from './objects/projectPortableText'
 import simplePortableText from './objects/simplePortableText'
+import hero from './objects/hero'
+import textSection from './objects/textSection'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -42,6 +44,8 @@ export default createSchema({
     person,
     sampleProject,
     siteSettings,
-    ad
+    ad,
+    hero,
+    textSection
   ])
 })

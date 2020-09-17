@@ -64,6 +64,15 @@ export default {
       type: 'projectPortableText'
     },
     {
+      name: 'blocks',
+      title: 'Blocks',
+      type: 'array',
+      of: [
+        {type: 'hero'},
+        {type: 'textSection'},
+      ]
+    },
+    {
       name: 'relatedProjects',
       title: 'Related projects',
       type: 'array',
